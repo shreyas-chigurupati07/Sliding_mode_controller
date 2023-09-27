@@ -68,6 +68,15 @@ rosrun project visualize.py
 ## Results
 * Video Demonstration
 
+
+
+https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/0bfbb45f-9dfc-42dc-bcd4-12f837da261f
+
+
+* Trajectory Plot
+![traj_plot](https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/c308e51d-289d-485f-ae9a-cfc891d05e7e)
+
+
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
   
