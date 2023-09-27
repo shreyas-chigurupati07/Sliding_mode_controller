@@ -28,19 +28,19 @@ The goal is to develop a Sliding Mode Controller (SMC) for the Crazyflie 2.0 qua
 
 ### Part 1: Trajectory Generation
 
-We generated a polynomial trajectory of magnitude 5 for the x, y, and z directions. The drone has to reach specific waypoints in a given time frame, starting from the origin (0,0,0).
+I generated a polynomial trajectory of magnitude 5 for the x, y, and z directions. The drone has to reach specific waypoints in a given time frame, starting from the origin (0,0,0).
 
 ### Part 2: Controller Design
 
-We used the given equations of motion to design a boundary layer sliding mode control law. The controller is designed for each of the generalized coordinates (z, φ, θ, ψ) to ensure the drone follows the desired trajectory.
+I used the given equations of motion to design a boundary layer sliding mode control law. The controller is designed for each of the generalized coordinates (z, φ, θ, ψ) to ensure the drone follows the desired trajectory.
 
 ### Part 3: Simulation and Evaluation
 
-We wrote a Python script that uses ROS and Gazebo to simulate the performance of the Crazyflie 2.0 quadrotor. The code initializes a ROS node and subscribes to the relevant topics to obtain real-time odometry data.
+I wrote a Python script that uses ROS and Gazebo to simulate the performance of the Crazyflie 2.0 quadrotor. The code initializes a ROS node and subscribes to the relevant topics to obtain real-time odometry data.
 
 ## Tuning Parameters
 
-We adjusted the tuning parameters for optimal performance. The parameters and their effects are as follows:
+I adjusted the tuning parameters for optimal performance. The parameters and their effects are as follows:
 
 - K(z): Affects the controller for z. Value used = 13.
 - K(phi): Affects the controller for φ. Value used = 180.
@@ -85,5 +85,8 @@ https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-  
+
+
+## Note:
+This is a private repository. Access is restricted to specific collaborators.
 
