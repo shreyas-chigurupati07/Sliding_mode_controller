@@ -17,6 +17,8 @@ This project aims to design a Sliding Mode Controller (SMC) for Crazyflie 2.0, a
 3. [Tuning Parameters](#tuning-parameters)
 4. [Performance Metrics](#performance-metrics)
 5. [Usage](#usage)
+6. [Results](#results)
+7. [License](#license)
 
 ## Problem Statement
 
@@ -62,4 +64,26 @@ For visualization, use the following command:
 ```
 rosrun project visualize.py
 ```
+
+## Results
+* Gazebo simulation video of Quadrotor tracing the desired trajectory.  
+
+
+
+https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/0bfbb45f-9dfc-42dc-bcd4-12f837da261f
+
+
+
+* Trajectory Plot<br>
+
+<p align="center">
+    <img src="https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/c308e51d-289d-485f-ae9a-cfc891d05e7e" />
+</p>
+
+
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+  
 
