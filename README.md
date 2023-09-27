@@ -78,7 +78,7 @@ https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817
 
 
 
-<img src="https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/c308e51d-289d-485f-ae9a-cfc891d05e7e" width="200" height="200"/>
+<img src="https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/c308e51d-289d-485f-ae9a-cfc891d05e7e" />
 
 
 ## License
