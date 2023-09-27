@@ -17,6 +17,8 @@ This project aims to design a Sliding Mode Controller (SMC) for Crazyflie 2.0, a
 3. [Tuning Parameters](#tuning-parameters)
 4. [Performance Metrics](#performance-metrics)
 5. [Usage](#usage)
+6. [Results](#results)
+7. [License](#license)
 
 ## Problem Statement
 
@@ -65,5 +67,8 @@ rosrun project visualize.py
 
 ## Results
 * Video Demonstration
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
   
 
