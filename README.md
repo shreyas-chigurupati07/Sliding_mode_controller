@@ -40,9 +40,9 @@ where \( F_{dx}, F_{dy}, F_{dz} \) are the drag forces and \( F_{th} \) is the t
 
 Generated a polynomial trajectory of magnitude 5 for the x, y, and z directions. The drone has to reach specific waypoints in a given time frame, starting from the origin (0,0,0).<br>
 The quadrotor's trajectory is planned using quintic polynomial equations:
-
+```math
 \[ x_d(t) = a_0 + a_1t + a_2t^2 + a_3t^3 + a_4t^4 + a_5t^5 \]
-
+```
 The coefficients \( a_0, a_1, \ldots, a_5 \) are computed to satisfy boundary conditions at waypoints \( p_0, p_1, \ldots, p_5 \).
 ### Part 3: Controller Design
 
