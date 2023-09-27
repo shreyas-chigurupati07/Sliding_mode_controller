@@ -70,7 +70,9 @@ rosrun project visualize.py
 
 
 
-https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/0bfbb45f-9dfc-42dc-bcd4-12f837da261f
+
+https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/e9479e0d-edf8-43a1-bc57-53c8e792c44b
+
 
 
 
