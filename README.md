@@ -79,8 +79,9 @@ https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817
 * Trajectory Plot<br>
 
 <p align="center">
-    <img src="https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/c308e51d-289d-485f-ae9a-cfc891d05e7e" />
+    <img src="[https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/c308e51d-289d-485f-ae9a-cfc891d05e7e](https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/6b3e5a88-bebb-4815-96c0-9fa95ccf4e1d)" />
 </p>
+
 
 
 
