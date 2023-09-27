@@ -41,41 +41,41 @@ where $`F_{dx}, F_{dy}, F_{dz}`$ are the drag forces and $`F_{th}`$ is the thrus
 Generated a polynomial trajectory of magnitude 5 for the x, y, and z directions. The drone has to reach specific waypoints in a given time frame, starting from the origin (0,0,0).<br>
 The quadrotor's trajectory is planned using quintic polynomial equations:
 ```math
-\[ x_d(t) = a_0 + a_1t + a_2t^2 + a_3t^3 + a_4t^4 + a_5t^5 \]
+x_d(t) = a_0 + a_1t + a_2t^2 + a_3t^3 + a_4t^4 + a_5t^5
 ```
-The coefficients \( a_0, a_1, \ldots, a_5 \) are computed to satisfy boundary conditions at waypoints \( p_0, p_1, \ldots, p_5 \).
+The coefficients $`a_0, a_1, \ldots, a_5 `$ are computed to satisfy boundary conditions at waypoints $`p_0, p_1, \ldots, p_5 `$.
 ### Part 3: Controller Design
 
 Used the given equations of motion to design a boundary layer sliding mode control law. The controller is designed for each of the generalized coordinates (z, φ, θ, ψ) to ensure the drone follows the desired trajectory.<br>
 
 A sliding mode controller is employed to control the Crazyflie 2.0. The sliding surfaces \( S \) are defined as:
 ```math
-\[ S = \dot{e} + \lambda e \]
+S = \dot{e} + \lambda e 
 ```
 where \( e \) is the tracking error. The control laws \( u \) are designed to ensure that the system state reaches the sliding surfaces in finite time and stays there.
 ```math
-\[ u = -K 	ext{sgn}(S) \]
+u = -K 	ext{sgn}(S)
 ```
 #### Controller for \( z \)
 ```math
-\(
+
 u_1 = m \left( g + \ddot{z}_d + \lambda_1 ( \dot{z}_d - \dot{z} ) + K_1     ext{sat}( S_1 ) 
-ight) / ( \cos(\phi) \cos(    heta) )
-\)
+ight) / ( \cos(\phi) \cos(\theta) )
+
 ```
-Where \( S_1 = \dot{z}_d - \dot{z} + \lambda_1 ( z_d - z ) \)
+Where $`S_1 = \dot{z}_d - \dot{z} + \lambda_1 ( z_d - z )`$
 
 #### Controller for \( \phi \)
 ```math
-\(
+
 u_2 = -     ext{(rotational terms)} - \lambda_2 \dot{\phi} I_x - K_2 I_x     ext{sat}( S_2 )
-\)
+
 ```
-Where \( S_2 = \dot{\phi}_d - \dot{\phi} + \lambda_2 ( \phi_d - \phi ) \)
+Where $`S_2 = \dot{\phi}_d - \dot{\phi} + \lambda_2 ( \phi_d - \phi ) `$
 
 #### Controller for \(theta \) and \( \psi \)
 
-Similar equations were derived for \(theta \) and \( \psi \).
+Similar equations were derived for $`(\theta \) and \( \psi \)`$.
 
 ### Part 4: Simulation and Evaluation
 
