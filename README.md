@@ -31,7 +31,7 @@ The goal is to develop a Sliding Mode Controller (SMC) for the Crazyflie 2.0 qua
 The equations of motion for the Crazyflie 2.0 are modeled as a set of nonlinear differential equations:
 ```math
 
-m\ddot{x} = -F_{dx} + F_{th} \sin(\phi) \cos( heta)
+m\ddot{x} = -F_{dx} + F_{th} \sin(\phi) \cos(\theta)
 m\ddot{y} = -F_{dy} + F_{th} \sin(\theta) \cos(\phi) 
 m\ddot{z} = -F_{dz} + F_{th} \cos(\theta) \cos(\phi) - mg 
 ```
