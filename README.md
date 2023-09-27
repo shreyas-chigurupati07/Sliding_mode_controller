@@ -49,33 +49,33 @@ The coefficients \( a_0, a_1, \ldots, a_5 \) are computed to satisfy boundary co
 Used the given equations of motion to design a boundary layer sliding mode control law. The controller is designed for each of the generalized coordinates (z, φ, θ, ψ) to ensure the drone follows the desired trajectory.<br>
 
 A sliding mode controller is employed to control the Crazyflie 2.0. The sliding surfaces \( S \) are defined as:
-
+```math
 \[ S = \dot{e} + \lambda e \]
-
+```
 where \( e \) is the tracking error. The control laws \( u \) are designed to ensure that the system state reaches the sliding surfaces in finite time and stays there.
-
+```math
 \[ u = -K 	ext{sgn}(S) \]
-
+```
 #### Controller for \( z \)
-
+```math
 \(
 u_1 = m \left( g + \ddot{z}_d + \lambda_1 ( \dot{z}_d - \dot{z} ) + K_1     ext{sat}( S_1 ) 
 ight) / ( \cos(\phi) \cos(    heta) )
 \)
-
+```
 Where \( S_1 = \dot{z}_d - \dot{z} + \lambda_1 ( z_d - z ) \)
 
 #### Controller for \( \phi \)
-
+```math
 \(
 u_2 = -     ext{(rotational terms)} - \lambda_2 \dot{\phi} I_x - K_2 I_x     ext{sat}( S_2 )
 \)
-
+```
 Where \( S_2 = \dot{\phi}_d - \dot{\phi} + \lambda_2 ( \phi_d - \phi ) \)
 
-#### Controller for \(     heta \) and \( \psi \)
+#### Controller for \(theta \) and \( \psi \)
 
-Similar equations were derived for \(     heta \) and \( \psi \).
+Similar equations were derived for \(theta \) and \( \psi \).
 
 ### Part 4: Simulation and Evaluation
 
