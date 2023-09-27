@@ -59,8 +59,9 @@ u = -K 	ext{sgn}(S)
 #### Controller for \( z \)
 ```math
 
-u_1 = m \left( g + \ddot{z}_d + \lambda_1 ( \dot{z}_d - \dot{z} ) + K_1     ext{sat}( S_1 ) 
-ight) / ( \cos(\phi) \cos(\theta) )
+
+u_1 = m \left( g + \ddot{z}_d + \lambda_1 ( \dot{z}_d - \dot{z} ) + K_1 \text{sat}( S_1 ) \right) / ( \cos(\phi) \cos(\theta) )
+
 
 ```
 Where $`S_1 = \dot{z}_d - \dot{z} + \lambda_1 ( z_d - z )`$
@@ -73,9 +74,9 @@ u_2 = -     ext{(rotational terms)} - \lambda_2 \dot{\phi} I_x - K_2 I_x     ext
 ```
 Where $`S_2 = \dot{\phi}_d - \dot{\phi} + \lambda_2 ( \phi_d - \phi ) `$
 
-#### Controller for $`(\theta) and (\psi)` $
+#### Controller for $`\theta`$ and $`(\psi)`$
 
-Similar equations were derived for $`\theta and \psi`$.
+Similar equations were derived for $`\theta`$ and $`\psi`$.
 
 ### Part 4: Simulation and Evaluation
 
