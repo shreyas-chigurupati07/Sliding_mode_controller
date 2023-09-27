@@ -66,7 +66,7 @@ rosrun project visualize.py
 ```
 
 ## Results
-* Video Demonstration
+* Gazebo simulation video of Quadrotor tracing the desired trajectory.  
 
 
 
