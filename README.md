@@ -4,8 +4,9 @@
 ## Overview
 
 This project aims to design a Sliding Mode Controller (SMC) for Crazyflie 2.0, a quadrotor, to enable it to track desired trajectories and visit a set of waypoints. The primary objectives are to ensure robust performance, achieve precise tracking, and minimize control efforts.
+<p align="center">
 <img src="https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817/089b5087-3443-414f-b089-8963683dfef6" />
-
+</p>
 **Note:** This is a private repository. The code and detailed implementation are not publicly accessible.
 
 ## Table of Contents
