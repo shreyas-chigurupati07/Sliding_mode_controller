@@ -137,9 +137,6 @@ https://github.com/shreyas-chigurupati07/Sliding_mode_controller/assets/84034817
 
 
 
-
-
-
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
